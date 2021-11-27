@@ -19,7 +19,7 @@ The data we're using is from Kaggle's dog breed identification competition : htt
 Some information about the data:
 
 - We're dealing with images (unstructured data) (so it's probably best we use deep learning/transfer learning).
-- There are 120 breeds of dogs (this means there are 120 different classes - multi-class).
+- There are 120 breeds of dogs (this means there are **120 different classes - multi-class**).
 - There are around 10,000+ images in the **training set** (these images have labels).
 - There are around 10,000+ images in the **test set** (these images don't have labels).
 
@@ -34,7 +34,13 @@ Helpful resource for understanding basics of tensors: https://machinelearningmas
 
 
 #### Steps followed:
-* 
+* Get data ready (download from Kaggle, store, import).
+* Prepare the data (preprocessing, the 3 sets, X & y).
+* Choose and fit/train a model (TensorFlow Hub, tf.keras.applications, TensorBoard, EarlyStopping).
+* Evaluating a model (making predictions, comparing them with the ground truth labels).
+* Improve the model through experimentation (start with 1000 images, make sure it works, increase the number of images).
+* Save, sharing and reloading your model.
+* Prediction on custom images.
 
 
 
